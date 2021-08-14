@@ -1,0 +1,7 @@
+index	feature
+0	opening_price
+1	highest_price
+2	lowest_price
+3	closing_price
+4	trading_volume
+5	num_of_shares
