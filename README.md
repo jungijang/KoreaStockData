@@ -9,7 +9,7 @@ Features consist of 6 basic features (open, high, low, close, volume, num_of_sha
 Due to the size of data, we upload tensor data to Google Drive.
 * Numpy array of the size  (3028, 3089, 6) for python [\[Download\]](https://drive.google.com/file/d/1YBpYfvo7qZzE2Hu0cH4OCEs0TeQCAlgq/view?usp=sharing)
 * Dense tensor data of the size (3028, 3089, 6) for matlab [\[Download\]](https://drive.google.com/file/d/1Q0k7EeHEvNc1Rcl7sYNbnoVxw_mie6VA/view?usp=sharing)
-* Sparse tensor data of the size (3028, 3089, 6) for matlab [\[Download\]](https://drive.google.com/file/d/1akh72wwx6iMjYozlpgSCasBs0nIT8Exq/view?usp=sharing)
+* Sparse tensor data of the size (3028, 3089, 6) for matlab [\[Download\]](https://drive.google.com/file/d/1akh72wwx6iMjYozlpgSCasBs0nIT8Exq/view?usp=sharing). The number of entries is 37,607,688 (577,484 entries are zero among them). 
 
 ## Additional Information
 We provide stock table, feature dictionary, and date dictionary.
@@ -20,6 +20,7 @@ In `data` directory, there are three files.
 
 ### Missing Entires in Stock Table
 There are several missing entries in stock table, denoted as "No Information".
+If "name" of a stock is "No Information", it may be a delisted stock.
 
 ## Demo
 We provide simple codes to read tensor data and information related data. Please check how to read data in `demo_python` and `demo_matlab` directories.
