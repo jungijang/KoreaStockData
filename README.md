@@ -1,5 +1,5 @@
 # KoreaStockData
-3028 stocks which at least listed one day on South Korea stock market from 2008/01/02 to 2020/06/30.
+3028 stocks on South Korea stock market from 2008/01/02 to 2020/06/30.
 Features consist of 6 basic features (open, high, low, close, volume, num_of_shares).
 * Number of stocks: 3,028   
 * Number of dates: 3,089   
