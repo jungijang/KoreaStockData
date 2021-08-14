@@ -1,6 +1,6 @@
 # KoreaStockData
 3028 stocks on South Korea stock market from 2008/01/02 to 2020/06/30.
-Features consist of 6 basic features (open, high, low, close, volume, num_of_shares).
+Each stock have 6 basic features consisting of (open, high, low, close, volume, num_of_shares).
 * Number of stocks: 3,028   
 * Number of dates: 3,089   
 * Number of features: 6
